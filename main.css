@@ -5,13 +5,10 @@
 }
 
 body {
-    border: solid blue;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 .wrapper {
-    border: solid red;
     max-width: 960px;
     margin: auto;
 }
@@ -38,7 +35,6 @@ section{
 
 .banner {
     background-image: url(./image\ 1.png);
-    border: solid violet;
     height: 525px;
 }
 .subtitulo{
@@ -55,19 +51,81 @@ section{
     background: #7299FE;
     height: 424px;
 }
+.text2{
+    color: #1D06A7;
+
+}
+.about-text{
+margin-top: 30px;
+font-size: 14px;
+line-height: 24px;
+}
+.about-button{
+    font-size: 22px;
+    color: #fff;
+    margin-top: 10px;
+    background: #D16FFF;
+    border: transparent;
+    border-radius: 10px;
+    width:187px ;
+    height: 62px;
+}
 .skills{
     background: #9022FF;
     height: 424px;
+}
+.text3{
+    color: #26CC4B;
 }
 .portfolio{
     background: #FFD233;
     height: 424px;
 }
+.text4{
+    color: #00AD84;
+
+
+}
 .clientes{
     background: #3F4E62;
     height: 258px;
 }
+
+.text5{
+    color: #ADFF28;
+
+}
 .contacto{
     background: #1687A0;
     height: 578px;
+}
+.text6{
+    color: #FF1B1B;
+
+}
+.columnas{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.barra{
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: blue;
+    width: 403px;
+    height: 20px;
+}
+
+.barra-int{
+    border-radius: 10px;
+    background-color: #fff;
+    width: 319px;
+    height: 20px;
+}
+
+article{
+    border: solid red;
 }
